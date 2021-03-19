@@ -7,15 +7,14 @@ Creado el 18 de marzo del 2021
 #Importamos librería
 import time
 
-#Declaramos variables
+#Declaramos e imprimos variables
 nombre_archivo = input("Teclea el nombre del archivo:")
+
+print("Nombre del Archivo:",nombre_archivo)
 
 cuenta_max = int(input("Cuenta máxima:")) #La variable cuenta_max determina el número de veces que el ciclo correrá
 
-#Imprimos variables
-print("Nombre del Archivo: ", nombre_archivo)
-
-print("Cuenta máxima: ", cuenta_max)
+print("Cuenta máxima:",cuenta_max)
 
 #Agregamos nuestra variable iterable i y la comenzamos en 0
 i = 0
